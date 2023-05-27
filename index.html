@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <div class="nav">
+    <h4>Header</h4>
+    <a  id="signup-link" href="index.html" target="blank" alt="Signup">
+        Signup</a>
+         <a  id="profile-link" href="./profile.html" target="blank" alt="Profile">Profile</a>
+ </div>
+ <hr id="nav-rule">
+
+ <h1>Signup</h1>
+
+  
+    <form action="">
+        <div class="form">
+            <label for="fullName">Full Name</label>
+ <input type="text" id="fullName" name="fullName"  >
+        <hr>
+
+ <div class="form">
+    <label for="email">Email</label>
+ <input type="email" id="email" name="email" autocomplete="username">
+ </div>
+ <hr>
+ <div class="form">
+    <label for="password">Password</label><input type="password" id="password" name="password" autocomplete="new-password">
+ </div>
+ <hr>
+
+ <div class="form">
+    <label for="cfmpassword">Confirm Password</label>
+ <input type="password" id="cfmpassword" name="cfmpassword" autocomplete="new-password">
+ </div>
+ <hr>
+ <p id="message" style="margin:20px"></p>
+ <button id="signup">Signup</button>
+    </form>
+ 
+    
+    <script src="script.js"></script>
+</body>
+</html>
